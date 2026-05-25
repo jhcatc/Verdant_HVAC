@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-verdant-50: #f0fdf4;
+  --color-verdant-100: #dcfce7;
+  --color-verdant-200: #bbf7d0;
+  --color-verdant-300: #86efac;
+  --color-verdant-400: #4ade80;
+  --color-verdant-500: #22c55e;
+  --color-verdant-600: #16a34a;
+  --color-verdant-700: #15803d;
+  --color-verdant-800: #166534;
+  --color-verdant-900: #14532d;
+  --color-verdant-950: #052e16;
+}
+
+:root {
+  --color-verdant: #16a34a;
+}
+
+.dark {
+  color-scheme: dark;
+}
